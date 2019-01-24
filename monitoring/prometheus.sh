@@ -1,0 +1,1 @@
+docker run -d --name=prometheus -p 9090:9090 -v /Users/tcegunay/workspaces/workspace-meetup/meetup-2019-01-24-Jamaica/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml
